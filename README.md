@@ -1,6 +1,6 @@
 # IanDB
 
-IanDB is often referred as a data structures server. What this means is that IanDB provides access to mutable data structures via a set of commands, which are sent using a server-client model with TCP sockets and a simple protocol. So different processes can query and modify the same data structures in a shared way.
+IanDB is often referred as a data structures server. What this means is that IanDB provides access to mutable data structures via a set of commands, which are sent using a server-client model with UDP sockets and a simple protocol. So different processes can query and modify the same data structures in a shared way.
 
 Data structures implemented into IanDB have a few special properties:
 
