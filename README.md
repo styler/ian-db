@@ -19,3 +19,5 @@ After building IanDB, it is a good idea to test it using:
 
 # Code contributions
  🤔
+
+Enjoy!
