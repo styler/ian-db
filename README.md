@@ -12,3 +12,7 @@ It uses coding and algorithms to avoid data congestion and vulnerability against
 # Building IanDB
 
     make
+
+After building IanDB, it is a good idea to test it using:
+
+    make test
