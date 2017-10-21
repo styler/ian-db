@@ -1,1 +1,2 @@
 admin:admin
+memes:hunter2
