@@ -1,11 +1,1 @@
-# It is important to establish a secure connection between the DB and client.
-
-< PASS nimda
-< NICK admin
-> :tmi.ian.db 001 admin :Welcome, GLHF!
-> :tmi.ian.db 002 admin :Your host is tmi.ian.db
-> :tmi.ian.db 003 admin :This server is rather new
-> :tmi.ian.db 004 admin :-
-> :tmi.ian.db 375 admin :-
-> :tmi.ian.db admin :You are in a maze of twisty passages.
-> :tmi.ian.db 376 <user> :>
+xd
