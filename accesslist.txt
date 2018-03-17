@@ -1,2 +1,2 @@
-admin:admin
-memes:hunter2
+admin:nimda
+memes:2retnut
