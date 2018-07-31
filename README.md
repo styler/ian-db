@@ -21,6 +21,10 @@ After building IanDB, it is a good idea to test it using:
 
     make test
 
+# Lost your data?
+
+Yeah, that happens. It's typical of Ian DB for it to just randomly disappear. Hope you got backups TriHard
+
 # Code contributions
  🤔
 
