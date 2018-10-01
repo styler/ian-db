@@ -1,4 +1,4 @@
-# IanDB
+# IanDB - Hacktoberfest Edition v0.2
 
 <img src="https://i.imgur.com/4rwDNQN.png">
 
