@@ -1,3 +1,9 @@
  🤔
 if race condition is here:
+ mutex.lock()
  stop urself
+ mutex.unlock()
+const alonr = Math.random(-inf,+inf);
+setTimeout(func(if race condition is here){
+// stop urself
+}, alonr);
