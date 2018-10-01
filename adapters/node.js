@@ -1,3 +1,3 @@
 module.exports = function() {
-  throw new Error('Connection successful!');
+  try {throw new Error('Connection successful!');} catch(e) { throw new Error e.message }
 }
