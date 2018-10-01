@@ -1,3 +1,5 @@
  🤔
 if race condition is here:
+ mutex.lock()
  stop urself
+ mutex.unlock()
