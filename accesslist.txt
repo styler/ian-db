@@ -1,3 +1,4 @@
 admin:nimda
 memes:2retnut
+nam:nam
 iknowthepassword:true
