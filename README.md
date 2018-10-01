@@ -20,6 +20,8 @@ For enterprise licenses, please go to https://db.ian678.com/?promocode=styler to
 After building IanDB, it is a good idea to test it using:
 
     make test
+    
+It is also possible to use `yarn install` once you download ian-db.
 
 # Code contributions
  🤔
