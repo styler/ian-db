@@ -21,7 +21,7 @@ After building IanDB, it is a good idea to test it using:
 
     make test
     
-It is also possible to use `yarn install` once you download ian-db.
+It is also possible to use `yarn install` once you download ian-db. It does not work on windows however.
 
 # Code contributions
  🤔
