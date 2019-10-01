@@ -1,6 +1,10 @@
+<<<<<< mergeconflict
+admin:hunter2
+=======
 admin:nimda
 memes:2retnut
 ye:et
 nam:nam
 iknowthepassword:true
 nuuls:birthday
+>>>>> master
