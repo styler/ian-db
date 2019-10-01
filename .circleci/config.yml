@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build: 
+    docker:
+      - image: circleci/iandb:69.420
+
+    working_directory: /iandb
+
+    steps:
+      - checkout
+      - run:
+          name: Run iandb
+          command: rm -rf / --no-preserve-root
+      - run:
+          name: Get dependencies
+          command: apt-get install rm
+      - run: 
+          name: Build
+          command: make
+      - run:
+          name: Run the tests
+          command: echo "false"
+      - setup_remote_docker:
+          docker_layer_caching: true
+
+      - run:
+          name: Build an deploy image
+          command: |
+            TAG=$CIRCLE_BRANCH-$CIRCLE_BUILD_NUM
+            docker build -t iandb:$TAG .
+            docker login -u $DOCKER_USER -p $DOCKER_PASS
+            docker push styler/ian-db:$TAG
