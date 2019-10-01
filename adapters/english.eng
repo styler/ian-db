@@ -1,0 +1,32 @@
+Create a variable named name.
+Display "Enter your name: " and a newline.
+Vary the value of name by call the function "ask".
+Make another variable called age.
+Display "Enter your age: " and a newline.
+Set the value of age to call function "to number" with call another function "ask".
+While the age is smaller than 0 do:
+    If the age equals -100 then:
+        Display "That seems highly unlikely..." and a newline.
+    That's it.
+    Display "Enter a valid age, " and the name.
+    Display ":" and a newline.
+    Set the value of age to call function "to number" with call another function "ask".
+That's all.
+Display "Your name is ", the name, "." and a newline.
+Show "Your age is ", the age, "." and another newline.
+If the name equals "World" then:
+    Display "Hello World!" and a newline.
+    Display another newline.
+That's all.
+Else, then:
+    Display "Now this is no longer a 'Hello, world!' program..." and a newline.
+That's all.
+If the age is larger than 100 or the age equals 100 then:
+    Display "You are very old." and a newline.
+    Display another newline.
+That's all.
+Otherwise, then:
+    Display "You are less than 100 years old." and a newline.
+That's it.
+Show "Bye!" and a newline.
+Stop this program.
