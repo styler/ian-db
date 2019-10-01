@@ -8,7 +8,7 @@ begin
    readln(A);
    if (A=0) then
    begin
-      writeln('Not a quadratic equation.');
+      writeln('NaM a quadratic equation.');
       halt;
    end;
    write('B = ');
