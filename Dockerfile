@@ -1,4 +1,4 @@
-FROM iandb:69.420
+FROM iandb:420.69
 
 WORKDIR /usr/src/ian-db
 
