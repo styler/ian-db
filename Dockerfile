@@ -1,4 +1,4 @@
-FROM iandb:420.69
+FROM iandb:alpine
 
 WORKDIR /usr/src/ian-db
 
