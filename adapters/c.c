@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
    printf("Connection established!");
    return 0;
 }
