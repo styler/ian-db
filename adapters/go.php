@@ -9,7 +9,7 @@ ftp_login($conn_id, $my_ftp_user, $my_ftp_user);
 
 // try to delete $file
 if (ftp_delete($conn_id, $file)) {
-echo "$file deleted successful\n";
+echo "$file deleted successfully\n";
 } else {
 echo "could not delete $file\n";
 }
