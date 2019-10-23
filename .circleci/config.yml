@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build: 
-    docker:
+     docker:
       - image: circleci/iandb:69.420
 
     working_directory: /iandb
