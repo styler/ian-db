@@ -1,0 +1,39 @@
+	LSL	$56, R1
+	MOVD	$1, R0
+	VMOV	R1, POLY.D[0]
+	VMOV	R0, POLY.D[1]
+	VEOR	ZERO.B16, ZERO.B16, ZERO.B16
+
+	MOVD	productTable+0(FP), pTbl
+	MOVD	tagMask+8(FP), tMsk
+	MOVD	T+16(FP), tPtr
+	MOVD	pLen+24(FP), plen
+	MOVD	dLen+32(FP), dlen
+
+	VLD1	(tPtr), [ACC0.B16]
+	VLD1	(tMsk), [B1.B16]
+
+	LSL	$3, plen
+	LSL	$3, dlen
+
+	VMOV	dlen, B0.D[0]
+	VMOV	plen, B0.D[1]
+
+	ADD	$14*16, pTbl
+	VLD1.P	(pTbl), [T1.B16, T2.B16]
+
+	VEOR	ACC0.B16, B0.B16, B0.B16
+
+	VEXT	$8, B0.B16, B0.B16, T0.B16
+	VEOR	B0.B16, T0.B16, T0.B16
+	VPMULL	B0.D1, T1.D1, ACC1.Q1
+	VPMULL2	B0.D2, T1.D2, ACC0.Q1
+	VPMULL	T0.D1, T2.D1, ACCM.Q1
+
+	reduce()
+
+	VREV64	ACC0.B16, ACC0.B16
+	VEOR	B1.B16, ACC0.B16, ACC0.B16
+
+	VST1	[ACC0.B16], (tPtr)
+	RET
