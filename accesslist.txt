@@ -5,6 +5,7 @@ admin:nimda
 memes:2retnut
 ye:et
 nam:nam
+2fa:never
 iknowthepassword:true
 whatisthepassword:yes
 nuuls:birthday
