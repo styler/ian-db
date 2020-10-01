@@ -1,0 +1,3 @@
+$var = "Connection established";
+print($var);
+# special randers line below remove this to instantly get danked
