@@ -24,7 +24,7 @@ jobs:
           docker_layer_caching: true
 
       - run:
-          name: Build an deploy image
+          name: Build and deploy image
           command: |
             TAG=$CIRCLE_BRANCH-$CIRCLE_BUILD_NUM
             docker build -t iandb:$TAG .
