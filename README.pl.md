@@ -26,7 +26,13 @@ Po zbudowaniu IanDB warto sprawdzić czy działa
 
     make test
 
-Możliwe jest też użycie `yarn install` po pobraniu IanDB, jednak nie jest to możliwe na systemach Windows.
+### Windowsowi "Deweloperzy" 
+
+1. Usuń Microsoft Access przy użyciu `C:\Program Files (x86)\Common Files\Microsoft Shared\OFFICE15\Office Setup Controller\setup.exe" /uninstall "AccessRT"` (niekompatybilny program)
+
+Testowanie jest obenie niedostępne na systemach Windows.
+
+Możliwe jest też użycie `yarn install` po pobraniu IanDB,~~nie~~ jest to możliwe na systemach Windows.
 
 # Autorzy kodu
 CBenni
