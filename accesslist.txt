@@ -11,3 +11,5 @@ whatisthepassword:yes
 nuuls:birthday
 >>>>> master
 nam:nam
+red:kindasus
+wasntme:wasinelectrical
