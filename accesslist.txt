@@ -16,3 +16,4 @@ wasntme:wasinelectrical
 yellow:voteblue
 blue:wasnotanimpostor
 2:impostorsremaining
+nuuls2020:vote
