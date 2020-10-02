@@ -1,4 +1,4 @@
-# IanDB - v0.3 (Ɛ˙0ʌ ɐʍoʞᴉuɹǝᴉzpźɐdoʞɐH ɐɾɔʎpƎ - 𐐒◖uɐI)
+# IanDB - v1.0 (0˙Ɩʌ ɐʍoʞᴉuɹǝᴉzpźɐdoʞɐH ɐɾɔʎpƎ - 𐐒◖uɐI)
 
 <img src="https://i.nuuls.com/Q5BdI.png">
 
