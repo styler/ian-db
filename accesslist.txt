@@ -13,3 +13,6 @@ nuuls:birthday
 nam:nam
 red:kindasus
 wasntme:wasinelectrical
+yellow:voteblue
+blue:wasnotanimpostor
+2:impostorsremaining
