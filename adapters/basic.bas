@@ -1,4 +1,4 @@
-0 PRINT "Welcome to ianDB. Version v0.3 for BASIC"
+0 PRINT "Welcome to ianDB. Version v1.0 for BASIC"
 10 INPUT "Please enter your name"; ans$
 20 IF ans$ ="" THEN PRINT "You didn't enter your name."
 30 IF ans$ ="World" OR ans$ = "world" THEN PRINT "Hello World!"
