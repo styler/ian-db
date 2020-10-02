@@ -30,6 +30,7 @@ It is also possible to use `yarn install` once you download ian-db. It does not 
 
 # Code contributions
 CBenni
+Onslaught
  🤔
 
 Enjoy!
