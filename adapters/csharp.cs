@@ -21,7 +21,7 @@ public class Program
       
       foreach (string name in sortedAdapters)
       {
-        var indvResult = Adapters.mapNameToInstance(name).compatibilize();
+        var indvResult = Adapters.mapNameToInstance(name).compatibilize(this);
         
         if (indvResult.Error) {
            Console.WriteLine("Found incompatible adapter: {0} FeelsDankMan", name)
