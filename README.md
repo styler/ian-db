@@ -1,6 +1,6 @@
 # IanDB - v1.0 (0˙Ɩʌ uoıʇıpƎ ʇsǝɟɹǝqoʇʞɔɐH - 𐐒◖uɐI)
 
-<img src="https://i.imgur.com/4rwDNQN.png">
+<img src="https://i.imgur.com/5SBCv47.png">
 
 IanDB is often refered as a structured data structures server. What this means is that IanDB provides access to mutable data structures via a set of commands, which are sent using a server-client model with UDP sockets and a simple protocol. So different processes can query and modify the same data structures in a shared way.
 
