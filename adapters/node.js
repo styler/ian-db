@@ -1,10 +1,12 @@
-module.exports = function() {
-  try {throw new Error('Connection successful!');} catch(e) { throw new Error e.message }
+module.exports = () => {
+    try { throw new Error('Connection successful!'); } catch (e) { throw new Error e.message }
 }
-//Missing a few if and else statements... I fixed
-if (hour < 18) {
-    greeting = "Good day";
-  else {
-  goodbye = "See ya later nerd";
-  }
+// Cleaned up 
+const hourDecider = (hour) => {
+    return hour < 18 ? "gt" : "gb"
 }
+
+const hourMap =
+    { gt: () => { greeting = "Good day" }, gb: () => { goodbye = "See ya later nerd" } }
+
+hourMap[hourDecider(hour)]
