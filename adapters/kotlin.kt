@@ -1,1 +1,1 @@
-fun main() = println("Connection established!")
+suspend fun main() = println("Connection established!")
