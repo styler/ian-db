@@ -1,0 +1,24 @@
+include "std.porth"
+
+macro PASS_CAP 16 end
+macro pass mem end
+macro pass2 mem end
+macro correct_pass "penis123" end
+
+"Please authenticate with your IanDB™ cluster: " stdout write drop
+
+PASS_CAP pass stdin read
+dup 0 <= if
+  "ERROR: Your credentials couldn't be read. Before reporting an issue on GitHub ensure you're not on Windows.\n" stderr write drop
+  1 exit
+end
+
+pass over + 1 - , '\n' = if
+  1 -
+end
+
+"I'm too stupid to check whether '" stdout write drop
+pass stdout write drop
+"' is the correct access token (" stdout write drop
+correct_pass stdout write drop
+"), so if it isn't, please go away ( ^-^)\n" stdout write drop
