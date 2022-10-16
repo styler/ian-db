@@ -2,12 +2,13 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
 func main() {
-    fmt.Println("Hello", os.Args[1])
-    os.Exit(42)
+	fmt.Println("Hello", os.Args[1])
+	os.Exit(42)
 }
+
 //Got you CBenni
